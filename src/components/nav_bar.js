@@ -49,10 +49,10 @@ class NavBar extends Component {
       <Bar>
         <Button>MyTube</Button>
         <List>
-          <ListItem2 as="a" href="/">Home</ListItem2>
-          <ListItem2 as="a" href="/">About</ListItem2>
-          <ListItem2 as="a" href="/">FAQ</ListItem2>
-          <ListItem2 as="a" href="/">Contact</ListItem2>
+          <ListItem2 as="a" href="#">Home</ListItem2>
+          <ListItem2 as="a" href="#">About</ListItem2>
+          <ListItem2 as="a" href="#">FAQ</ListItem2>
+          <ListItem2 as="a" href="#">Contact</ListItem2>
         </List>
       </Bar>
     );

@@ -5,6 +5,10 @@ const Detail = styled.div`
   width: 100%;
 `;
 
+const Title = styled.div`
+  font-weight: bold;
+`;
+
 const VideoDetail = ({ video }) => {
   if (!video) {
     return <div>Loading...</div>;
@@ -21,7 +25,7 @@ const VideoDetail = ({ video }) => {
           <iframe className="embed-responsive-item" src={url} />
         </div>
         <div className="details">
-          <div>{video.snippet.title}</div>
+          <Title>{video.snippet.title}</Title>
           <div>{video.snippet.description}</div>
         </div>
       </Detail>

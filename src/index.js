@@ -11,6 +11,8 @@ import NavBar from './components/nav_bar';
 
 const VideoSection = styled.div`
   display: flex;
+  background-color: rgba(73, 73, 73, 0.26);
+  color: white;
 `;
 
 class App extends Component {
